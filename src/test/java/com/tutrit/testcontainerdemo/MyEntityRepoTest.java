@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 import java.sql.ResultSet;
 
 @SpringBootTest
-@Import(value = MySQLContainerTest.class)
+//@Import(value = MySQLContainerTest.class)
 class MyEntityRepoTest extends MySQLContainerTest {
 
     @Autowired
